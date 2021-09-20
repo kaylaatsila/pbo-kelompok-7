@@ -4,5 +4,6 @@ class SalariedEmployee extends Employee{
     public void setSalary(int s) {
         salary = s;
     }
+    int payment(){
 }
 }
