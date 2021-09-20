@@ -6,5 +6,10 @@ public class Main2 {
         
         e[0] = se;
         e[1] = he;
+        
+        se.setSalary(1000);
+
+        he.setHourlyPayment(15);
+        he.setHoursWorked(25);
     }
 }
