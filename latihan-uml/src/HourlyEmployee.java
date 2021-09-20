@@ -17,7 +17,9 @@ class HourlyEmployee extends Employee{
     public void setHourlyPayment(int hp) {
         hourlyPayment = hp;
     }
-
     
-    
+    int payment(){
+        return getHourlyPayment() * getHoursWorked();
+    }
+        
 }
