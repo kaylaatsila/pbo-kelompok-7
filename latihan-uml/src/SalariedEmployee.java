@@ -5,5 +5,6 @@ class SalariedEmployee extends Employee{
         salary = s;
     }
     int payment(){
+    return salary;    
 }
 }
