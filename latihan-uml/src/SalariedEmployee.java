@@ -1,0 +1,3 @@
+class SalariedEmployee extends Employee{
+    
+}
