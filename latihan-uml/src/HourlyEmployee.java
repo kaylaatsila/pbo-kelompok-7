@@ -1,8 +1,8 @@
-class HourlyEmployee extends Employee{
-    private int hoursWorked;
+class HourlyEmployee extends Employee{      
+    private int hoursWorked;        //inisialisasi class
     private int hourlyPayment;
     
-       public int getHoursWorked() {
+       public int getHoursWorked() {        //membuat methode setter getter
         return hoursWorked;
     }
 
@@ -19,7 +19,7 @@ class HourlyEmployee extends Employee{
     }
     
     int payment(){
-        return getHourlyPayment() * getHoursWorked();
+        return getHourlyPayment() * getHoursWorked();   //mengoveride dari class abstrak employe
     }
         
 }
