@@ -1,3 +1,6 @@
 class HourlyEmployee extends Employee{
+    private int hoursWorked;
+    private int hourlyPayment;
+    
     
 }
